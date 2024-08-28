@@ -1,0 +1,30 @@
+.submenu    {
+    position: absolute;
+    background-color: rgb(53, 73, 94);
+    width:150px;
+    top: 60px;
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+}
+.submenu .navlink{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submenu .navlink:hover{
+    background-color: gray;
+}
+.navlink.active{
+    background-color: gray;
+}
+.submenu.clicked{
+    display: none;
+}
